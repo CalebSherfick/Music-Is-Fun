@@ -17,14 +17,14 @@ export default class Song {
             
                 <div class="card-body text-center">
                     <h4 class="card-title">${this.title}</h4>
-                    <h5 class="card-title">${this.artist}</h5>
-                    <h6 class="card-title">${this.collection}</h6>
+                    <h5 class="card-title ">${this.artist}</h5>
+                    <h6 class="card-title song-album">${this.collection}</h6>
                     <audio controls>
                         <source src="${this.preview}" type="audio/ogg">
                         <source src="${this.preview}" type="audio/mpeg">
                     </audio>
                     <div class="d-flex flex-row justify-content-between">
-                    <a href="#!" class="btn btn-primary purchase-btn d-flex justify-content-center align-items-center">Purchase</a>
+                    <a href="#!" class="btn purchase-btn d-flex justify-content-center align-items-center">Purchase</a>
                     <h4 class="card-title">${this.price}</h4>
                     </div>                    
                 </div>

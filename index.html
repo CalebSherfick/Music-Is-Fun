@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Songster</title>
-    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Staatliches" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
@@ -23,8 +23,9 @@
                 <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
                     <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
                     <div class="form-group">
-                        <input type="text" class="form-control search-bar" name="artist" placeholder="Artist Name" />
-                        <button type="submit" class="btn btn-primary search-bar" id="get-music-button">Get
+                        <input type="text" class="form-control search-bar" name="artist"
+                            placeholder="Song, Artist, Album" />
+                        <button type="submit" class="btn search-bar" id="get-music-button">Get
                             Music</button>
                     </div>
                 </form>

@@ -1,5 +1,9 @@
-* {
-  font-family: 'Staatliches', cursive;
+* {    
+    font-family: 'Staatliches', cursive;
+}
+
+body {
+  background-color: #33313b;
 }
 
 .search-photo {
@@ -13,16 +17,26 @@
 .title {
   color: white;
   font-size: 10em;
-  text-shadow: -3px 3px 5px black
+  text-shadow: -3px 3px 5px black;
 }
 
 .search-bar {
   border-radius: 0px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 audio {
   max-width: 100%;
-  max-height: 2em;;
+  max-height: 2em;
+}
+
+.song-album {
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.card {
+  background-color: #edf4ed;
+  border-radius: 0px;
 }
 
 .card-title {
@@ -41,4 +55,11 @@ audio {
   max-height: 2em;
   margin-bottom: 0.21em;
 
+}
+
+.btn {
+  background-color: #834c69;
+  border-color: #834c69;
+  color: white;
+  border-radius: 0px;
 }
