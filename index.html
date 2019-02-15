@@ -5,28 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Music Is Fun!</title>
+    <title>Songster</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="assets/style.css">
 
 </head>
 
-<body class="container-fluid">
+<body>
 
-    <section class="row">
-        <div class="col">
-            <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
-                <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
-                <div class="form-group">
-                    <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
-                    <button type="submit" class="btn btn-primary" id="get-music-button">Get Music</button>
-                </div>
-            </form>
-        </div>
-    </section>
+    <header class="container-fluid">
+        <section class="row">
+            <div class="col d-flex flex-column align-items-center justify-content-center search-photo">
+                <h1 class="title pb-4">Songster</h1>
+                <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
+                    <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+                    <div class="form-group">
+                        <input type="text" class="form-control search-bar" name="artist" placeholder="Artist Name" />
+                        <button type="submit" class="btn btn-primary search-bar" id="get-music-button">Get
+                            Music</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </header>
 
-    <sections class="row" id="songs">
+    <main class="container">
+        <sections class="row" id="songs">
 
-    </sections>
+        </sections>
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="module" src="app/main.js"></script>

@@ -1,0 +1,44 @@
+* {
+  font-family: 'Staatliches', cursive;
+}
+
+.search-photo {
+  background-image: url(./jake-noren-1220523-unsplash.jpg);
+  background-size: cover;
+  background-repeat: none;
+  min-height: 50vh;
+  background-position-y: 70%;
+}
+
+.title {
+  color: white;
+  font-size: 10em;
+  text-shadow: -3px 3px 5px black
+}
+
+.search-bar {
+  border-radius: 0px;
+}
+
+audio {
+  max-width: 100%;
+  max-height: 2em;;
+}
+
+.card-title {
+  margin: 0px;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em
+}
+
+.card-body {
+    text-align:justify;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.purchase-btn {
+  max-height: 2em;
+  margin-bottom: 0.21em;
+
+}
