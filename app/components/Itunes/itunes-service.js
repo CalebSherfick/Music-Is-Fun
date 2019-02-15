@@ -15,7 +15,7 @@ function setState(prop, data) {
 }
 
 //DO NOT MODIFY
-class ItunesService {
+export default class ItunesService {
   get Songs() {
     return _state.songs
   }
@@ -38,4 +38,3 @@ class ItunesService {
 
 
 
-export default ItunesService
