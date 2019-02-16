@@ -23,6 +23,13 @@ body {
 .search-bar {
   border-radius: 0px;
   font-family: 'Nunito Sans', sans-serif;
+  box-shadow: -3px 3px 2px black
+}
+
+.search-bar-submit {
+  border-radius: 0px;
+  font-family: 'Nunito Sans', sans-serif;
+  box-shadow: 0px 3px 2px black
 }
 
 audio {
@@ -37,6 +44,9 @@ font-family: 'Nunito Sans', sans-serif;
 .card {
   background-color: #edf4ed;
   border-radius: 0px;
+  min-height:2-em;
+  max-height: 25em;
+  overflow-y: auto;
 }
 
 .card-title {
