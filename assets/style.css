@@ -10,7 +10,7 @@ body {
   background-image: url(./jake-noren-1220523-unsplash.jpg);
   background-size: cover;
   background-repeat: none;
-  min-height: 50vh;
+  min-height: 40vh;
   background-position-y: 70%;
 }
 
@@ -44,9 +44,9 @@ font-family: 'Nunito Sans', sans-serif;
 .card {
   background-color: #edf4ed;
   border-radius: 0px;
-  min-height:2-em;
+  min-height:25em;
   max-height: 25em;
-  overflow-y: auto;
+  overflow: auto;
 }
 
 .card-title {
@@ -64,7 +64,6 @@ font-family: 'Nunito Sans', sans-serif;
 .purchase-btn {
   max-height: 2em;
   margin-bottom: 0.21em;
-
 }
 
 .btn {
@@ -72,4 +71,9 @@ font-family: 'Nunito Sans', sans-serif;
   border-color: #834c69;
   color: white;
   border-radius: 0px;
+}
+
+.button-row {
+  padding-top: 1em;
+  margin-left: -6em;
 }

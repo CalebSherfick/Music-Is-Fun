@@ -21,7 +21,6 @@ function drawSongs() {
 export default class ItunesController {
   constructor() {
     //BE SURE TO REGISTER YOUR SUBSCRIBERS!!!!!!!
-
     itunesService.addSubscriber('songs', drawSongs)
     drawSongs()
   }
@@ -35,6 +34,10 @@ export default class ItunesController {
     document.querySelector('#get-music-button').textContent = 'LOADING....'
     itunesService.getMusicByArtist(artist)
   }
-}
 
+
+  playSong(url) {
+    document.getElementById('playAudio').setAttribute("src", url)
+  }
+}
 
