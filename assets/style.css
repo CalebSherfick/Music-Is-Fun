@@ -10,7 +10,7 @@ body {
   background-image: url(./jake-noren-1220523-unsplash.jpg);
   background-size: cover;
   background-repeat: none;
-  min-height: 40vh;
+  min-height: 100vh;
   background-position-y: 70%;
 }
 
@@ -49,10 +49,18 @@ font-family: 'Nunito Sans', sans-serif;
   overflow: auto;
 }
 
+.card:hover {
+background-image: url('./jake-noren-1220523-unsplash.jpg');
+}
+
 .card-title {
   margin: 0px;
   padding-top: 0.1em;
   padding-bottom: 0.1em
+}
+
+.album-art:hover {
+  background-image: url('./jake-noren-1220523-unsplash.jpg');
 }
 
 .card-body {

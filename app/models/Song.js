@@ -12,9 +12,11 @@ export default class Song {
     getTemplate() {
         return `
          <div class="col-md-3 pt-3">
-         <a onclick="app.controllers.itunesCtrl.playSong('${this.preview}')">
+         
             <div class="card">
-                <img class="card-img-top" src="${this.albumArt}" alt="Card image cap">
+            <a onclick="app.controllers.itunesCtrl.playSong('${this.preview}')">
+                <img class="card-img-top album-art" src="${this.albumArt}" alt="Card image cap">
+                </a>
                 <div class="card-body text-center">
                     <h3 class="card-title">${this.title}</h3>
                     <h5 class="card-title ">${this.artist}</h5>
@@ -26,7 +28,6 @@ export default class Song {
                     </div>                    
                 </div>
             </div>
-            </a>
         </div>
         `
     }

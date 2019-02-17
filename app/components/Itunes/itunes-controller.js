@@ -35,9 +35,19 @@ export default class ItunesController {
     itunesService.getMusicByArtist(artist)
   }
 
-
   playSong(url) {
-    document.getElementById('playAudio').setAttribute("src", url)
+    let myVideo = document.getElementById("playAudio")
+    if (myVideo.paused) {
+      myVideo.setAttribute("src", url);
+    }
+    else {
+      myVideo.pause(url);
+    }
   }
+
+
+
+
+
 }
 
