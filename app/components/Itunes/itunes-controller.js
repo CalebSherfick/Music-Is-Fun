@@ -35,12 +35,12 @@ export default class ItunesController {
   }
 
   playSong(url) {
-    let myVideo = document.getElementById("playAudio")
-    if (myVideo.paused) {
-      myVideo.setAttribute("src", url);
+    let mySong = document.getElementById("playAudio")
+    if (mySong.paused) {
+      mySong.setAttribute("src", url);
     }
     else {
-      myVideo.pause(url);
+      mySong.pause(url);
     }
   }
 

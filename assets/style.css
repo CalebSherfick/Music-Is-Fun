@@ -70,7 +70,8 @@ background-image: url('./jake-noren-1220523-unsplash.jpg');
 }
 
 .album-art:hover {
-  cursor: pointer;;
+  cursor: pointer;
+  background-color: black;
 }
 
 .card-body {
