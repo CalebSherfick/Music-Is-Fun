@@ -11,8 +11,7 @@ export default class Song {
 
     getTemplate() {
         return `
-         <div class="col-md-3 pt-3">
-         
+         <div class="col-md-3 pt-3">         
             <div class="card">
             <a onclick="app.controllers.itunesCtrl.playSong('${this.preview}')">
                 <img class="card-img-top album-art" src="${this.albumArt}" alt="Card image cap">

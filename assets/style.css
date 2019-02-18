@@ -42,6 +42,11 @@ audio {
   color: #edf4ed;
 }
 
+.tip{
+  text-shadow: -2px 2px 2px black;  
+
+}
+
 .song-album {
 font-family: 'Nunito Sans', sans-serif;
 }
@@ -65,7 +70,7 @@ background-image: url('./jake-noren-1220523-unsplash.jpg');
 }
 
 .album-art:hover {
-  background-image: url('./jake-noren-1220523-unsplash.jpg');
+  cursor: pointer;;
 }
 
 .card-body {
