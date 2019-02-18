@@ -22,7 +22,7 @@ export default class Song {
                     <h6 class="card-title song-album">${this.collection}</h6>
                     
                     <div class="d-flex flex-row justify-content-between button-row">
-                        <a href="#!" class="btn purchase-btn d-flex justify-content-center align-items-center">Purchase</a>
+                        <a href="#!" class="btn purchase-btn d-flex justify-content-center align-items-center">Buy  (Coming Soon)</a>
                         <h4 class="card-title">${this.price}</h4>
                     </div>                    
                 </div>
